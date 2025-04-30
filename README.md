@@ -1,17 +1,3 @@
-mpi-embedding-benchmark/
-├── mpi_embedding_benchmark.py
-├── combined_charts.py
-├── run_mpi.bat
-├── requirements.txt
-├── benchmark_results/
-├── mpi_results/
-├── output/
-├── combined_comparison/
-├── final_charts/
-├── .gitignore
-└── README.md
-
-
 # MPI Embedding Benchmark
 
 This project benchmarks document embedding inference using SentenceTransformers with MPI-based parallelism. The goal is to explore speedup, throughput, and efficiency when processing large batches of documents across multiple CPU processes.
