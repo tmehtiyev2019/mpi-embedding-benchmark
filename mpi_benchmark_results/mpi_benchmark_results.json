@@ -1,0 +1,129 @@
+{
+  "small": {
+    "sequential": {
+      "8": {
+        "embedding_time": 2.5882201194763184,
+        "indexing_time": 0.0,
+        "total_time": 2.5882201194763184,
+        "docs_per_second": 10.045513441592693
+      },
+      "16": {
+        "embedding_time": 1.600337266921997,
+        "indexing_time": 0.005544900894165039,
+        "total_time": 1.605882167816162,
+        "docs_per_second": 16.190478056903377
+      }
+    },
+    "mpi": {
+      "8": {
+        "total_time": 1.70737624168396,
+        "docs_per_second": 15.228043687873145,
+        "speedup": 1.5159049635852933,
+        "efficiency": 0.3789762408963233,
+        "num_processes": 4
+      },
+      "16": {
+        "total_time": 1.4319939613342285,
+        "docs_per_second": 18.15650114597905,
+        "speedup": 1.1214308238562103,
+        "efficiency": 0.2803577059640526,
+        "num_processes": 4
+      }
+    },
+    "document_sizes": {
+      "min": 155,
+      "max": 1165,
+      "mean": 708.3846153846154,
+      "median": 746.0
+    }
+  },
+  "medium": {
+    "sequential": {
+      "8": {
+        "embedding_time": 3.254136085510254,
+        "indexing_time": 0.0,
+        "total_time": 3.254136085510254,
+        "docs_per_second": 15.365061167120771
+      },
+      "16": {
+        "embedding_time": 2.992892265319824,
+        "indexing_time": 0.0,
+        "total_time": 2.992892265319824,
+        "docs_per_second": 16.706247859094567
+      },
+      "32": {
+        "embedding_time": 3.535353422164917,
+        "indexing_time": 0.0,
+        "total_time": 3.535353422164917,
+        "docs_per_second": 14.14285759565783
+      }
+    },
+    "mpi": {
+      "8": {
+        "total_time": 3.1799120903015137,
+        "docs_per_second": 15.72370511514961,
+        "speedup": 1.0233415242626103,
+        "efficiency": 0.25583538106565257,
+        "num_processes": 4
+      },
+      "16": {
+        "total_time": 3.1399264335632324,
+        "docs_per_second": 15.923939957809553,
+        "speedup": 0.95317273466291,
+        "efficiency": 0.2382931836657275,
+        "num_processes": 4
+      },
+      "32": {
+        "total_time": 2.889784574508667,
+        "docs_per_second": 17.302327807082715,
+        "speedup": 1.2233968764837815,
+        "efficiency": 0.30584921912094537,
+        "num_processes": 4
+      }
+    },
+    "document_sizes": {
+      "min": 1230,
+      "max": 3189,
+      "mean": 2253.36,
+      "median": 2238.5
+    }
+  },
+  "large": {
+    "sequential": {
+      "8": {
+        "embedding_time": 1.353546380996704,
+        "indexing_time": 0.0,
+        "total_time": 1.353546380996704,
+        "docs_per_second": 17.73119882476967
+      },
+      "16": {
+        "embedding_time": 1.3969323635101318,
+        "indexing_time": 0.0,
+        "total_time": 1.3969323635101318,
+        "docs_per_second": 17.18050252604512
+      }
+    },
+    "mpi": {
+      "8": {
+        "total_time": 1.6952011585235596,
+        "docs_per_second": 14.157611844073344,
+        "speedup": 0.7984576781292312,
+        "efficiency": 0.1996144195323078,
+        "num_processes": 4
+      },
+      "16": {
+        "total_time": 1.5274946689605713,
+        "docs_per_second": 15.712002462392556,
+        "speedup": 0.9145251973027936,
+        "efficiency": 0.2286312993256984,
+        "num_processes": 4
+      }
+    },
+    "document_sizes": {
+      "min": 3220,
+      "max": 3892,
+      "mean": 3534.9166666666665,
+      "median": 3462.5
+    }
+  }
+}
